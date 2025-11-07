@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Lalezar&family=Holtwood+One+SC&display=swap');
+
+:root {
+  --background-color: #1A1A1A;
+  --card-color: #2C2C2C;
+  --good-rank-color: #5CC05F;
+  --mid-rank-color: #C0645C;
+  --bad-rank-color: #C0C05C;
+  --text-color: #FFFFFF;
+  --header-font: 'Konkhmer Sleokchher', cursive;
+  --raiting-font: 'Lalezar', cursive;
+  --anime-name-font: 'Holtwood One SC', serif;
+}
+
+.text-color{
+  color: var(--text-color);
+}
+
+.raiting-font{
+  font-family: var(--raiting-font)
+}
+
+.anime-name-font{
+  font-family: var(--anime-name-font)
+}
+
+.header-font{
+  font-family: var(--header-font)
+}
+
+body {
+  font-family: var(--anime-name-font);
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.no-selection {
+  -webkit-user-select: none;  
+  -moz-user-select: none;     
+  -ms-user-select: none;     
+  user-select: none;          
+}

@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding-left: 4.6vw;
+    padding-right: 4.6vw;
+    padding-top: 1.17vw;
+    flex-wrap: nowrap;              
+}
+
+header > .title{
+    font-size: 1.96vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;       
+  cursor: pointer;       
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.head-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1vw;
+  max-width: 40vw;
+  flex-shrink: 1;
+}
+
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5vw;
+}
+
+.profile-icon {
+  width: 2vw;
+  height: 2vw;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.error-handler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.back-main-btn {
+  padding: 1vw 2vw;
+  font-size: 1.5vw;
+  cursor: pointer;
+  border-radius: 1vw;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.back-main-btn:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
